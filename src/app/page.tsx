@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Hero from './hero'
+// import Hero from './hero'
 import Banner from './banners'
 import Products from './products'
 import About from './about'
@@ -9,7 +9,8 @@ import contactme from './contactme'
 export default function Home() {
   return (
     <div>
-      <Hero/><Banner/><Products/><About/><Newsletter/><Footer/>
+      {/* <Hero/> */}
+      <Banner/><Products/><About/><Newsletter/><Footer/>
     </div>
   )
 }
